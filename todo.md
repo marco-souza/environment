@@ -1,0 +1,16 @@
+- [ ] [init]
+    - [ ] setup ansible
+- [ ] [setup]
+    - [ ] nvim
+    - [ ] dotfiles
+        - [ ] tmux
+        - [ ] ssh
+        - [ ] zsh
+- [ ] [dev tools]
+    - [ ] podman
+    - [ ] kubectl
+    - [ ] k9s
+    - [ ] go
+    - [ ] zig
+    - [ ] volta (node, bun)
+    - [ ] deno
