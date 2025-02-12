@@ -1,0 +1,15 @@
+services:
+  webui:
+    image: ghcr.io/open-webui/open-webui:main
+    restart: always
+    ports:
+      - 6969:8080
+    volumes:
+      - $HOME/.ollama:/root/.ollama
+      - open-webui:/app/backend/data
+    environment:
+      - "OLLAMA_API_BASE_URL=http://ollama:11434/api"
+
+volumes:
+  open-webui:
+
